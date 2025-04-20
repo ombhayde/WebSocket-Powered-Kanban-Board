@@ -1,0 +1,66 @@
+/* TaskProgressChart.css */
+.chart-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  }
+  
+  .chart-title {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .chart-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .chart-stats {
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+  
+  .stat-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid #f0f4f8;
+  }
+  
+  .stat-label {
+    color: #505f79;
+    font-weight: 500;
+  }
+  
+  .stat-value {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .todo-count {
+    color: #FF8042;
+  }
+  
+  .in-progress-count {
+    color: #FFBB28;
+  }
+  
+  .done-count {
+    color: #00C49F;
+  }
+  
+  .chart-visualization {
+    flex: 2;
+    min-width: 300px;
+    height: 220px;
+  }

@@ -1,6 +1,6 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
-import KanbanBoard from '../components/KanbanBoard';
+import KanbanBoard from "../../components/KanbanBoard";
 
 // Mock Socket.io
 vi.mock('socket.io-client', () => {

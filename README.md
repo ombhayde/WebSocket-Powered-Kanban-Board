@@ -148,5 +148,4 @@ npm run e2e
 
 **Om**  
 📧 ombhayde5@gmail.com
-🌐 [Portfolio or LinkedIn/GitHub]
-# WebSocket-Powered-Kanban-Board
+
